@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+
+    background-image: linear-gradient(to left, rgb(81, 81, 236), rgb(233, 80, 233));
+    color: white;
+}
+
+.judul {
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin-left: 30px;
+}
+
+.akun {
+    display: flex;
+    align-items: center;
+}
+
+.akun p {
+    padding-right: 50px;
+}
+
+.akun a{
+    text-decoration: none;
+    color: white;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+.searching {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search {
+    padding: 10px 5px;
+    width: 500px;
+}
+
+.cari {
+    padding: 10px;
+    width: 100px;
+
+    font-size: medium;
+    background-color: violet;
+    color: white;
+    border:none;
+    border-radius: 10px;
+}
+
+.tabel {
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.tabel table {
+    width: 800px;
+    border-style: none;
+}
+
+.tabel th,td {
+    padding: 10px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.tabel tr:nth-child(even){background-color: #f2f2f2;}
+
+.tabel th{
+    background-color: rgb(125, 125, 247);
+    color: white;
+}
